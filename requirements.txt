@@ -1,4 +1,4 @@
 SAlib
-arbor
+arbor==0.5.0
 matplotlib
 numpy
