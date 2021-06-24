@@ -94,7 +94,7 @@ class Sensitivity(arbor.recipe):
         # convert 140 uA/cm^2 to total current in nA
         area = 4 * np.pi * (radius * 1e-6)**2
         I = (140e-6/0.01**2 * area)/1e-9
-        decor.place('"midpoint"', arbor.iclamp(0, 15, I))
+        decor.place('"midpoint"', arbor.iclamp(0, 15, I), "stimulus")
 
         cell = arbor.cable_cell(tree, labels, decor)
 
