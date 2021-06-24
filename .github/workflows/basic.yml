@@ -22,3 +22,7 @@ jobs:
       - name: Run
         run: |
           make
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Result of sensitivity analysis
+          path: hh_sensitivity.svg
