@@ -1,5 +1,7 @@
 # Hodgkin-Huxley Sensitivity Analysis
 
+[![Hodgkin-Huxley Sensitivity Analysis](https://github.com/schmitts/hodgkin-huxley-sensitivity-analysis/actions/workflows/basic.yml/badge.svg)](https://github.com/schmitts/hodgkin-huxley-sensitivity-analysis/actions/workflows/basic.yml)
+
 Reproduces:
 
 "Uncertainty Propagation in Nerve Impulses Through the Action Potential Mechanism", Valderrama et al.
